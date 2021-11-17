@@ -1,0 +1,7 @@
+/* 存放全局样式 */
+/* 引入iconfont样式 */
+@import '/static/iconfont/iconfont.wxss';
+
+page{
+  height: 100%;
+}

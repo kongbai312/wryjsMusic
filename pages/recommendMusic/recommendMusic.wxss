@@ -1,0 +1,86 @@
+/* pages/recommendMusic/recommendMusic.wxss */
+
+/* 头部区域 */
+.recommendContain .header{
+  height: 300rpx;
+  width: 100%;
+  position: relative;
+}
+
+.recommendContain .header image{
+  width: 100%;
+  height: 100%;
+}
+
+.recommendContain .header .date{
+  width: 300rpx;
+  height: 100rpx;
+  /* border: 1rpx solid red; */
+  text-align: center;
+  line-height: 100rpx;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+}
+
+/* 内容区域 */
+.listContainer{
+  padding: 0 20rpx;
+  position: relative;
+  top: -20rpx;
+  background: #fff;
+  border-radius: 30rpx;
+}
+
+.listContainer .listHeader{
+  height: 80rpx;
+  line-height: 80rpx;
+}
+
+.listContainer .listHeader .more{
+  float: right;
+}
+
+/* 歌曲内容区 */
+.listScroll{
+  height: calc(100vh - 380rpx);
+}
+
+.listScroll .listItem{
+  display: flex;
+  height: 80rpx;
+  margin-bottom: 20rpx;
+}
+
+.listScroll .listItem image{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 10rpx;
+}
+
+.listScroll .listItem .musicInfo{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+  flex: 1;
+}
+
+.listScroll .listItem .musicInfo text{
+  height: 40rpx;
+  font-size: 26rpx;
+  line-height: 40rpx;
+  max-width: 500rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.listScroll .listItem .iconfont{
+  width: 80rpx;
+  height: 80rpx;
+  /* background-color: red; */
+  line-height: 80rpx;
+  text-align: center;
+}
